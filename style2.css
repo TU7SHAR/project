@@ -6,3 +6,13 @@
     background-size: 100% 100%;
     position: relative;
 }
+@media(max-width: 700px){
+    .header{
+    min-hieght: 100vh;
+    width 50%;
+    background-image: url(awesome.png);
+    background-position: center;
+    background-size: cover;
+    pocition: absolute;
+    }
+    }
