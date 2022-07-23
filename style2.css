@@ -8,7 +8,7 @@
 }
 @media(max-width: 700px){
     .header{
-    min-hieght: 100vh;
+    min-hieght: 50vh;
     width 50%;
     background-image: url(awesome.png);
     background-position: center;
