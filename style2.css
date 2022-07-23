@@ -3,6 +3,6 @@
     width: 100%;
     background-image: url(awesome.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
 }
