@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.8">
+    <title>tushar00gautam</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body ><section class="header">
+        <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="nav_links">
+            <i class="fa fa-gavel" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="crash.html">Home</a></li>
+            <li><a href="crash.html">Hobbies</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="crash.html">Contact Us</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-plus" onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>#tushar00gautam(myself)</h1>
+            <p>
+                 This Site is solely coded By me for a Personal Project<br>
+                 Based in Ajithgarh(Region:Malwa-Belt),Punjab<br>
+                 This site is code with Css & Html<br>
+            </p>
+            <h6>#Note This Site is not optimized yet for Mobile Devices</h6>
+            </br>
+            <a href="https://github.com/TU7SHAR/project.git" class="btn">Visit Us to know More</a>
+        </div>
+       </section>
+
+       <!---  Intro section   -->
+
+       <section class="intro">
+       <h1><u>&nbspWho Am I??</u></h1>
+       <p>
+        Once again i am Tushar Gautam<br>
+        I have made this website for portfolio purposes<br>
+        And I am 19 this Year<br>
+        I am very passionate when it comes to tech things<br>
+        But, when has a passionate && Empty Pocket programeer has achieved things<br>
+        So, I started working as Freelancer and Financial Markets as side Hobbies<br>
+        But, Unfortunately I am not yet profiteer and is overally down by 6%<br>
+        Such a shame, Such a shame but hopefully persistance can help me<br>
+        OOPS, Deviated from topics Once again<br>
+        Back to the topics, I am Junior in Fullstack Web-Devlopment,<br>
+        If ever you needed website for personal or buisness purposes<br>
+        I could be of your help,With pathetically low prices<br>
+       </p>
+       <h6><a href="aboutme.html" class="abt">Visit Here For Knowing More About me</a></h6>
+       </section>
+       <!---- JavaScript For Toggle Menu   -->
+
+       <script>
+            var navLinks = document.getElementById("nav_links");
+           function showMenu(){
+            navLinks.style.right = "0";
+           }
+
+           function hideMenu(){
+            navLinks.style.right = "800px";
+           }
+        </script>
+    </body>
+</html>
