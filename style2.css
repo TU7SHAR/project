@@ -6,14 +6,4 @@
     background-size: 100% 100%;
     position: relative;
 }
-@media(max-width: 700px){
-    .header{
-    min-hieght: 100vh;
-    hieght: 100;
-    width: 100%;
-    background-image: url(awesome.png);
-    background-position: center;
-    background-size: cover;
-    pocition: relative;
-    }
-    }
+
